@@ -1,1 +1,101 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  width: 1052px;
+  height: 105px;
+  padding: 92px 24px 96px;
+ 
+
+}
+
+.header__menu {
+    width: 391px;
+    height: 22px;
+    margin: 44px 36.48px 39px 26.52px;
+}
+
+.header__links-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 13px;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+  text-underline-offset: 3px;
+}
+
+/*.header__links-list-item_no-bullit {
+    list-style-type: none;
+}*/
+
+.header__logo {
+    display: flex;
+    width: 148px;
+    height: 105px;
+   
+
+}
+
+.header__logo-image {
+
+}
+
+
+
+.header__address {
+    display: flex;
+    flex-direction: column;
+    width: 240.52px;
+    height: 98px;
+    margin: 5px 25.48px 2px 184px;
+    text-underline-offset: 4px;
+}
+
+.cover {
+    height: 757px;
+    width: 1100px;
+    margin-top: 96px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/cover.jpg);
+    position: relative;
+}
+
+.overlay {
+
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0 0 0/0.6);
+    position: absolute;
+    
+    
+
+    }
+
+.cover__title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-weight: 700px;
+    letter-spacing: 34px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    z-index: 1;
+    
+   
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
